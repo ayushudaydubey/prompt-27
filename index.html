@@ -78,24 +78,124 @@
      
 
     </section>
-    <section class=" Services-touch  flex p-6 ">
-    <div class="services w-1/2 bg-black  text-white ">
-      <h1 class=" text-3xl"> Services</h1>
-      <h2>Logo Design</h2>
-      <h2>Brand Identity</h2>
-      <h2>Print Design</h2>
-      <h2>Web and Mobile Design
-      </h2>
-      <h2>Digital Illustrations</h2>
-      <h2>Infographics</h2>
-      <h2>Packaging Design</h2>
-      <h2>UI/UX Design</h2>
-
-    </div>
-    <div class="get-touch">
-
-    </div>
+    <section class="services-touch  w-full bg-black text-white ">
+      <!-- Services Section -->
+      <div class="services p-6 w-[100vw] bg-[url('for.jpg')] bg-[10%_70%] bg-cover text-white">
+        <h1 class="text-4xl mb-6 text-center font-bold border-b-2 border-gray-400 pb-2">
+          Our Services
+        </h1>
+      
+        <div class="space-y-6 px-6">
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer transition duration-300 hover:text-yellow-300">
+              Logo Design
+            </summary>
+            <p class="mt-2 text-xl">
+              Crafting unique and memorable logos that represent your brand’s identity. Each logo is designed to be visually striking and aligned with your business goals.
+            </p>
+          </details>
+      
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer transition duration-300 hover:text-yellow-300">
+              Brand Identity
+            </summary>
+            <p class="mt-2 text-xl">
+              Developing a consistent visual identity for your brand, including color schemes, typography, and other design elements that create a cohesive look and feel.
+            </p>
+          </details>
+      
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer transition duration-300 hover:text-yellow-300">
+              Print Design
+            </summary>
+            <p class="mt-2 text-xl">
+              Designing print materials like brochures, flyers, posters, business cards, and packaging, ensuring they are visually appealing and aligned with your brand.
+            </p>
+          </details>
+      
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer transition duration-300 hover:text-yellow-300">
+              Web and Mobile Design
+            </summary>
+            <p class="mt-2 text-xl">
+              Creating visually engaging and user-friendly web and mobile app designs, focusing on layout, navigation, and user experience (UI/UX).
+            </p>
+          </details>
+      
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer transition duration-300 hover:text-yellow-300">
+              Digital Illustrations
+            </summary>
+            <p class="mt-2 text-xl">
+              Creating custom illustrations for websites, branding, advertisements, or personal projects. These can range from vector art to hand-drawn designs.
+            </p>
+          </details>
+      
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer transition duration-300 hover:text-yellow-300">
+              Infographics
+            </summary>
+            <p class="mt-2 text-xl">
+              Designing data-driven visuals that simplify complex information, making it more engaging and easier to understand for your audience.
+            </p>
+          </details>
+      
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer transition duration-300 hover:text-yellow-300">
+              Packaging Design
+            </summary>
+            <p class="mt-2 text-xl">
+              Creating attractive and functional packaging that communicates your brand’s identity and makes your product stand out on the shelf.
+            </p>
+          </details>
+      
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer transition duration-300 hover:text-yellow-300">
+              UI/UX Design
+            </summary>
+            <p class="mt-2 text-xl">
+              Designing intuitive user interfaces and enhancing the overall user experience for websites and applications, ensuring seamless navigation and a visually pleasing experience.
+            </p>
+          </details>
+        </div>
+      </div>
+      
+    
+      <!-- Get in Touch Section -->
+      <div class="get-touch max-w-4xl mx-auto text-white p-8 mt-10 rounded-lg shadow-lg">
+        <h2 class="text-3xl font-bold text-center mb-6 ">Get in Touch</h2>
+        <p class="text-center  mb-8">
+          Feel free to reach out for any inquiries or collaborations.
+        </p>
+    
+        <form  class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label for="name" class="block text-sm font-semibold ">Your Name</label>
+              <input type="text" id="name" name="name" class="w-full mt-2 p-3 border bg-black rounded-lg focus:ring-2 focus:ring-indigo-500" placeholder="Enter your name">
+            </div>
+    
+            <div>
+              <label for="email" class="block text-sm font-semibold ">Your Email</label>
+              <input type="email" id="email" name="email" class="w-full mt-2 p-3 border bg-black rounded-lg focus:ring-2 focus:ring-indigo-500" placeholder="Enter your email">
+            </div>
+          </div>
+    
+          <div>
+            <label for="message" class="block text-sm font-semibold ">Your Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full mt-2 p-3 border bg-black rounded-lg focus:ring-2 focus:ring-indigo-500" placeholder="Enter your message"></textarea>
+          </div>
+    
+          <div class="text-center">
+            <button type="submit" class="bg-white text-black py-3 px-8 rounded-lg text-lg hover:bg-black hover:text-white hover:border-2 hover:border-white  transition duration-300">
+              Send Message
+            </button>
+            
+          </div>
+        </form>
+      </div>
     </section>
+    
   </main>
 
 </body>
